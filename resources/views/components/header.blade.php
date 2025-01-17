@@ -1,7 +1,7 @@
 <header>
     <div class="header-top">
         <div class="logo-title">
-            <img src="{{ asset('images/logo-left.png') }}" alt="Logo INSTI" class="logo">
+            <img src="{{ asset('images/logo-right.png') }}" alt="Logo INSTI" class="logo">
             <div class="title-container">
                 <h1>INSTI</h1>
                 <p>Institut Nationale Supérieur de Technologie Industrielle de Lokossa</p>
@@ -20,7 +20,7 @@
                 <img src="{{ asset('images/person-fill.svg') }}" alt="Contact">
                 Nous écrire
             </a>
-            <img src="{{ asset('images/logo-right.png') }}" alt="Logo UNSTIM" class="logo">
+            <img src="{{ asset('images/logo-left.png') }}" alt="Logo UNSTIM" class="logo">
         </div>
     </div>
     <nav class="navbar">
@@ -29,6 +29,7 @@
                 <li><a href="{{ route('home') }}">Accueil</a></li>
                 <li><a href="{{ route('formations') }}">Formation</a></li>
                 <li><a href="{{ route('vie-estudiantine') }}">Vie estudiantine</a></li>
+                <li><a href="{{ route('mediatheque') }}">Mediatheque</a></li>
             </ul>
             <div class="search-bar">
                 <input type="text" placeholder="Rechercher...">

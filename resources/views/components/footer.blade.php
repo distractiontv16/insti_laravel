@@ -41,13 +41,14 @@
                 <li><a href="{{ route('home') }}">Accueil</a></li>
                 <li><a href="{{ route('formations') }}">Formation</a></li>
                 <li><a  href="{{ route('vie-estudiantine') }}">Vie estudiantine</a></li>
-                <li><a href="#mot-directrice">Mot de la Directrice</a></li>
-                <li><a href="#statistiques">Nos Statistiques</a></li>
-                <li><a href="#partenaires">Nos Partenaires</a></li>
+                <li><a href="{{ route('mediatheque') }}">Mediatheque</a></li>
+                <li><a href="{{ route('home') }}#mot-directrice">Mot de la Directrice</a></li>
+                <li><a href="{{ route('home') }}#statistiques">Nos Statistiques</a></li>
+                <li><a href="{{ route('home') }}#partenaires">Nos Partenaires</a></li>
             </ul>
         </div>
     </div>
     <div class="footer-bottom">
-        <p>© INSTI, UNSTIM 2024 </p>
+        <p> INSTI, UNSTIM 2024 </p>
     </div>
 </footer>
